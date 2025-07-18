@@ -156,12 +156,13 @@ ul {
 }
 
 .contacts-item {
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .contacts-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 /* #endregion Header */
@@ -238,6 +239,7 @@ ul {
 }
 
 .team .team-container {
+    padding: 32px 0;
 }
 
 .team-title {
@@ -332,7 +334,7 @@ ul {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 0px;
+    padding: 32px 16px;
 }
 
 .portfolio-subtitle {
