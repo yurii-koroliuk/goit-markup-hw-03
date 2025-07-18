@@ -133,7 +133,6 @@ ul {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-item {
@@ -144,6 +143,7 @@ ul {
 }
 
 .nav-link {
+    padding: 24px 0;
 }
 
 .contacts {
@@ -238,7 +238,6 @@ ul {
 }
 
 .team .team-container {
-    padding: 32px 0;
 }
 
 .team-title {
@@ -263,10 +262,8 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 32px;
 
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -277,6 +274,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 32px 0;
 }
 .team-subtitle {
     font-weight: 500;
