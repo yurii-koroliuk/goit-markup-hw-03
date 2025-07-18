@@ -73,10 +73,11 @@ ul {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     /* outline: solid red; */
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
 }
 
 .visually-hidden {
@@ -101,7 +102,6 @@ ul {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
 }
 
 .nav {
@@ -118,6 +118,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     display: flex;
+    margin-right: 76px
 }
 
 .logo-dark {
@@ -131,7 +132,6 @@ ul {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .nav-item {
@@ -139,9 +139,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
-.nav-link {}
+.nav-link {
+}
 
 .contacts {
     font-style: normal;
@@ -152,7 +154,9 @@ ul {
     gap: 40px;
 }
 
-.contacts-item {}
+.contacts-item {
+    padding: 24px 0
+}
 
 .contacts-link {
     line-height: 1.5;
@@ -165,15 +169,14 @@ ul {
 
 .hero {
     background-color: #2e2f42;
-    padding: 188px 472px;
-    margin-bottom: 120px;
+    padding: 188px 0;
 }
 
 .hero-container{
-    max-width: 496px;
 }
 
 .hero-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -187,6 +190,7 @@ ul {
     border-radius: 4px;
     padding: 16px 32px;
     margin: 0 auto;
+    min-width: 169px
 }
 
 /* #endregion Hero */
@@ -194,7 +198,7 @@ ul {
 /* #region Info */
 
 .info {
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .info-title {}
@@ -204,7 +208,9 @@ ul {
     gap: 24px;
 }
 
-.info-item {}
+.info-item {
+    width: calc((100% - 72px) / 4)
+}
 
 .info-subtitle {
     font-weight: 500;
@@ -228,6 +234,10 @@ ul {
 .team {
     padding: 120px 0;
     background-color: #f4f4fd;
+}
+
+.team-container {
+    padding: 32px 0;
 }
 
 .team-title {
@@ -266,7 +276,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    margin-bottom: 8px
 }
 .team-subtitle {
     font-weight: 500;
@@ -298,7 +308,7 @@ ul {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -320,7 +330,6 @@ ul {
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -333,6 +342,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .portfolio-desc {
@@ -347,6 +357,11 @@ ul {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer.logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-desc {
