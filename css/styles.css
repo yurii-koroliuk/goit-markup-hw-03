@@ -236,12 +236,12 @@ ul {
     background-color: #f4f4fd;
 }
 
-.team-container {
+.team .team-container {
     padding: 32px 0;
 }
 
 .team-title {
-    margin-bottom: 72px;;
+    margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -276,7 +276,6 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 8px
 }
 .team-subtitle {
     font-weight: 500;
@@ -285,6 +284,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-desc {
@@ -359,7 +359,7 @@ ul {
     padding: 100px 0;
 }
 
-.footer.logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
